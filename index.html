@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <script>document.documentElement.classList.add('js')</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#00111a" />
+    <title>Simonne Houeto — Développeuse Web Full-Stack &amp; Media Buying</title>
+    <meta
+      name="description"
+      content="Portfolio de Simonne Houeto, développeuse web full-stack et media buyer au Bénin : applications web performantes, campagnes Meta Ads, Google Ads et TikTok Ads."
+    />
+    <meta name="author" content="Simonne Houeto" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Simonne Houeto — Développeuse Web Full-Stack & Media Buying" />
+    <meta
+      property="og:description"
+      content="Applications web performantes et campagnes publicitaires efficaces."
+    />
+    <meta property="og:image" content="assets/img/person-cutout.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="header">
+      <div class="container">
+        <a class="brand" href="#home" aria-label="Simonne Houeto — accueil">
+          <span class="brand-mark" aria-hidden="true">SH</span>
+          <span class="brand-text">
+            <span class="brand-name">Simonne Houeto</span>
+            <span class="brand-role">Développeuse Web &amp; Media Buying</span>
+          </span>
+        </a>
+
+        <nav class="nav" id="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a class="is-active" href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div style="display: flex; align-items: center; gap: 12px">
+          <a class="btn btn-primary btn-sm" href="#contact">
+            Me contacter
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+          <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Ouvrir le menu">
+            <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+            <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12"/><path d="M18 6 6 18"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <!-- ===================== HERO ===================== -->
+      <section class="hero" id="home" aria-labelledby="titre-hero">
+        <!-- Particules d'ambiance (plan 4), derrière le texte et le portrait -->
+        <div class="hero-particles" aria-hidden="true">
+          <span class="orb orb-blur" style="--x:58%;--y:16%;--s:56px;--d:13s;--delay:-4s"></span>
+          <span class="orb orb-blur p-desk" style="--x:31%;--y:62%;--s:40px;--d:11s;--delay:-1s"></span>
+          <span class="orb" style="--x:7%;--y:20%;--s:4px;--d:13s;--delay:-2s"></span>
+          <span class="orb p-desk" style="--x:36%;--y:9%;--s:3px;--d:11s;--delay:-6s"></span>
+          <span class="orb p-desk" style="--x:47%;--y:74%;--s:5px;--d:15s;--delay:-4s"></span>
+          <span class="orb" style="--x:24%;--y:90%;--s:3px;--d:12s;--delay:-8s"></span>
+        </div>
+
+        <!-- Portrait intégré : la photo d’origine (détourée) est recadrée au-dessus
+             des mains et fondue dans le fond par masques CSS. Calques : halo,
+             particules et orbite derrière (hero-decor), personnage devant. -->
+        <div class="hero-visual">
+          <div class="hero-decor" aria-hidden="true">
+            <span class="hero-glow"></span>
+            <span class="hero-glow hero-glow-2"></span>
+            <span class="hero-glow hero-glow-3"></span>
+            <span class="orb orb-blur" style="--x:86%;--y:60%;--s:46px;--d:14s;--delay:-6s"></span>
+            <span class="orb orb-blur p-desk" style="--x:-12%;--y:30%;--s:34px;--d:12s;--delay:-2s"></span>
+            <span class="orb" style="--x:24%;--y:9%;--s:5px;--d:9s;--delay:-1s"></span>
+            <span class="orb" style="--x:14%;--y:27%;--s:4px;--d:12s;--delay:-5s"></span>
+            <span class="orb orb-soft" style="--x:71%;--y:31%;--s:8px;--d:11s;--delay:-3s"></span>
+            <span class="orb orb-bubble" style="--x:83%;--y:13%;--s:16px;--d:14s;--delay:-7s"></span>
+            <span class="orb" style="--x:97%;--y:47%;--s:6px;--d:8s;--delay:-2s"></span>
+            <span class="orb orb-bubble p-desk" style="--x:-4%;--y:57%;--s:11px;--d:13s;--delay:-9s"></span>
+            <span class="orb p-desk" style="--x:106%;--y:27%;--s:3px;--d:10s;--delay:-4s"></span>
+            <span class="orb p-desk" style="--x:46%;--y:2%;--s:4px;--d:12s;--delay:-6s"></span>
+            <span class="orbit"><span></span></span>
+          </div>
+          <div class="hero-figure">
+            <picture>
+              <source srcset="assets/img/person-cutout.webp" type="image/webp" />
+              <img
+                class="hero-person"
+                src="assets/img/person-cutout.png"
+                width="800"
+                height="1199"
+                alt="Portrait professionnel de Simonne Houeto en costume"
+                fetchpriority="high"
+              />
+            </picture>
+          </div>
+          <p class="script-words" aria-hidden="true">
+            <span>Code</span><span>Create</span><span>Grow</span>
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="hero-inner">
+            <div>
+              <p class="badge reveal">Développeuse Web Full-Stack &amp; Media Buying</p>
+
+              <h1 id="titre-hero" class="reveal d1">
+                Je transforme vos idées<br />
+                en <span class="accent">solutions digitales</span>
+              </h1>
+
+              <p class="hero-text reveal d2">
+                Développeuse web passionnée et media buying, je conçois des applications
+                performantes et des campagnes publicitaires efficaces pour booster votre
+                visibilité en ligne et atteindre vos objectifs.
+              </p>
+
+              <div class="hero-actions reveal d3">
+                <a class="btn btn-primary" href="#projects">
+                  Voir mes projets
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+                </a>
+                <a class="btn btn-ghost" href="#contact">Me contacter</a>
+              </div>
+            </div>
+
+          </div>
+
+          <ul class="hero-expertise reveal d4">
+            <li>
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M8 9h4"/><path d="M8 12.5h6"/></svg></span>
+              <span>
+                <span class="xp-title">Développement web</span>
+                <span class="xp-sub">Full-Stack</span>
+              </span>
+            </li>
+            <li>
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3 4.5 18.5h15z"/><circle cx="12" cy="13" r="2.6"/></svg></span>
+              <span>
+                <span class="xp-title">Publicité en ligne</span>
+                <span class="xp-sub">Meta Ads, Google Ads, …</span>
+              </span>
+            </li>
+            <li>
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="2.6"/><circle cx="17" cy="17" r="2.6"/><path d="M9 8.8c4 1 5 3 6 6.2"/><path d="M15.2 9 8.8 15.4"/><path d="M17 3v2"/><path d="M21 7h-2"/></svg></span>
+              <span>
+                <span class="xp-title">Automatisation &amp; IA</span>
+                <span class="xp-sub">(en apprentissage)</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===================== À PROPOS ===================== -->
+      <section class="about" id="about" aria-labelledby="titre-about">
+        <div class="container">
+          <div class="about-grid">
+            <div>
+              <p class="eyebrow">À propos</p>
+              <h2 class="section-title" id="titre-about">Des produits web pensés pour être utiles.</h2>
+
+              <p class="about-text">
+                Je suis Simonne Houeto, développeuse web full-stack au Bénin. Je conçois et
+                développe des applications web modernes, des plateformes métier et des outils
+                SaaS : performants, intuitifs et prêts à évoluer.
+              </p>
+              <p class="about-text">
+                Mon rôle : partir d’un besoin concret et le transformer en un produit fiable,
+                de la maquette à la mise en ligne, en y ajoutant de l’automatisation quand elle
+                fait gagner du temps.
+              </p>
+
+              <a class="btn btn-primary" href="#expertise">
+                Découvrir mon expertise
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+              </a>
+            </div>
+
+            <figure class="card quote-card">
+              <span class="quote-mark" aria-hidden="true">&#8220;&#8220;</span>
+              <blockquote>
+                « Le numérique n’est pas seulement un métier pour moi, c’est une opportunité
+                de créer, d’innover et d’avoir un impact. »
+              </blockquote>
+              <figcaption class="signature">Simonne Houeto</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== EXPERTISE — CE QUE JE CONSTRUIS ===================== -->
+      <section class="build" id="expertise" aria-labelledby="titre-build">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Expertise</p>
+              <h2 class="section-title" id="titre-build">Ce que je construis</h2>
+            </div>
+            <p class="section-intro">
+              De l’idée au produit en ligne : je conçois et développe des outils concrets,
+              pensés pour résoudre un vrai besoin.
+            </p>
+          </div>
+
+          <div class="build-grid">
+            <article class="card build-card reveal">
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/><path d="m3 17.5 9 5 9-5" opacity=".5"/></svg></span>
+              <h3>Développement Full-Stack</h3>
+              <p>
+                Des applications web complètes, de la base de données à l’interface,
+                performantes et prêtes à évoluer avec votre activité.
+              </p>
+              <p class="build-meta"><span>Exemples</span>WazShop · UniBus</p>
+            </article>
+
+            <article class="card build-card reveal d1">
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="15" rx="2"/><path d="M3 9h18"/><path d="M9 9v10"/></svg></span>
+              <h3>Frontend moderne</h3>
+              <p>
+                Des interfaces responsives et accessibles, rapides et agréables à utiliser,
+                sur mobile comme sur ordinateur.
+              </p>
+              <p class="build-meta"><span>Stack</span>React · Next.js · Tailwind CSS</p>
+            </article>
+
+            <article class="card build-card reveal d2">
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="3.5" width="16" height="7" rx="1.6"/><rect x="4" y="13.5" width="16" height="7" rx="1.6"/><path d="M8 7h.01"/><path d="M8 17h.01"/><path d="M12 7h4"/><path d="M12 17h4"/></svg></span>
+              <h3>Backend &amp; API</h3>
+              <p>
+                Une architecture backend solide : APIs sécurisées, authentification,
+                gestion des données et intégrations de services.
+              </p>
+              <p class="build-meta"><span>Stack</span>Laravel · PHP · Node.js · MySQL</p>
+            </article>
+
+            <article class="card build-card reveal">
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="7.5" height="9" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="5" rx="1.5"/><rect x="13.5" y="11" width="7.5" height="10" rx="1.5"/><rect x="3" y="15" width="7.5" height="6" rx="1.5"/></svg></span>
+              <h3>SaaS &amp; applications métier</h3>
+              <p>
+                Des outils qui répondent à de vrais problèmes business : organiser,
+                gérer, estimer, gagner du temps au quotidien.
+              </p>
+              <p class="build-meta"><span>Exemple</span>EVENTOPS</p>
+            </article>
+
+            <article class="card build-card reveal d1">
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="8" width="14" height="10" rx="3"/><path d="M12 5v3"/><circle cx="12" cy="4" r="1"/><path d="M9.5 12.5v1.5"/><path d="M14.5 12.5v1.5"/><path d="M2.5 12v3"/><path d="M21.5 12v3"/></svg></span>
+              <h3>Automatisation &amp; IA</h3>
+              <p>
+                Intégration d’API d’IA générative, agents conversationnels et workflows
+                automatisés pour supprimer les tâches répétitives.
+              </p>
+              <p class="build-meta"><span>Cas d’usage</span>Prospects · support client · ventes</p>
+            </article>
+
+            <article class="card build-card reveal d2">
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 19 7-7 3 3-7 7z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18z"/><path d="m2 2 7.6 7.6"/><circle cx="11" cy="11" r="2"/></svg></span>
+              <h3>UI/UX &amp; expérience utilisateur</h3>
+              <p>
+                Transformer une idée ou un besoin en parcours clair, avec des maquettes
+                validées avant la première ligne de code.
+              </p>
+              <p class="build-meta"><span>Outil</span>Figma</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== STACK TECHNIQUE ===================== -->
+      <section class="skills" id="competences" aria-labelledby="titre-skills">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Stack technique</p>
+              <h2 class="section-title" id="titre-skills">Technologies &amp; outils</h2>
+            </div>
+            <p class="section-intro">
+              Les technologies que j’utilise réellement dans mes projets, du code à la mise
+              en ligne.
+            </p>
+          </div>
+
+          <div class="stack-grid">
+            <article class="card stack-group reveal">
+              <h3>Frontend</h3>
+              <ul class="stack-list">
+                <li><svg viewBox="0 0 24 24" fill="#E34F26" aria-hidden="true" focusable="false"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg><span>HTML5</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#1572B6" aria-hidden="true" focusable="false"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg><span>CSS3</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#F7DF1E" aria-hidden="true" focusable="false"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg><span>JavaScript</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#3178C6" aria-hidden="true" focusable="false"><path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/></svg><span>TypeScript</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#61DAFB" aria-hidden="true" focusable="false"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"/></svg><span>React</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M9 16V8l7.2 10"/><path d="M15 8v5"/></svg><span>Next.js</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#4FC08D" aria-hidden="true" focusable="false"><path d="M24,1.61H14.06L12,5.16,9.94,1.61H0L12,22.39ZM12,14.08,5.16,2.23H9.59L12,6.41l2.41-4.18h4.43Z"/></svg><span>Vue.js</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#38BDF8" aria-hidden="true" focusable="false"><path d="M12 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.91.23 1.57.89 2.29 1.62C13.67 10.62 15.03 12 18 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.91-.23-1.57-.89-2.29-1.62C16.34 6.18 14.98 4.8 12 4.8zM6 12c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.91.23 1.57.89 2.29 1.62C7.67 17.82 9.03 19.2 12 19.2c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.91-.23-1.57-.89-2.29-1.62C10.34 13.38 8.98 12 6 12z"/></svg><span>Tailwind CSS</span></li>
+              </ul>
+            </article>
+
+            <article class="card stack-group reveal d1">
+              <h3>Backend &amp; données</h3>
+              <ul class="stack-list">
+                <li><svg viewBox="0 0 24 24" fill="#777BB4" aria-hidden="true" focusable="false"><path d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"/></svg><span>PHP</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#FF2D20" aria-hidden="true" focusable="false"><path d="M23.642 5.43a.364.364 0 01.014.1v5.149c0 .135-.073.26-.189.326l-4.323 2.49v4.934a.378.378 0 01-.188.326L9.93 23.949a.316.316 0 01-.066.027c-.008.002-.016.008-.024.01a.348.348 0 01-.192 0c-.011-.002-.02-.008-.03-.012-.02-.008-.042-.014-.062-.025L.533 18.755a.376.376 0 01-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.02.014-.032a.369.369 0 01.023-.058c.004-.013.015-.022.023-.033l.033-.045c.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034H.53L5.043.05a.375.375 0 01.375 0L9.93 2.647h.002c.015.01.027.021.04.033l.038.027c.013.014.02.03.033.045.008.011.02.021.025.033.01.02.017.038.024.058.003.011.01.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.004-.066.013-.098.003-.01.01-.02.013-.032a.487.487 0 01.024-.059c.007-.012.018-.02.025-.033.012-.015.021-.03.033-.043.012-.012.025-.02.037-.028.014-.01.026-.023.041-.032h.001l4.513-2.598a.375.375 0 01.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.03.034.044.008.012.019.021.024.033.011.02.018.04.024.06.006.01.012.021.015.032zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283zm-4.51 7.75v-4.287l-2.147 1.225-6.126 3.498v4.325zM1.093 3.624v14.588l8.273 4.761v-4.325l-4.322-2.445-.002-.003H5.04c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.04-.01-.011-.021-.022-.028-.036h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043a.49.49 0 01-.008-.057c-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.257zM5.23.81L1.47 2.974l3.76 2.164 3.758-2.164zm1.956 13.505l2.182-1.256V3.624l-1.58.91-2.182 1.255v9.435zm11.581-10.95l-3.76 2.163 3.76 2.163 3.759-2.164zm-.376 4.978L16.21 7.087 14.63 6.18v4.283l2.182 1.256 1.58.908zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.323 2.489-3.941 2.27z"/></svg><span>Laravel</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="#5FA04E" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 2.5 20.2 7.2v9.6L12 21.5l-8.2-4.7V7.2z"/><path d="M12 8.5v7" stroke-linecap="round"/></svg><span>Node.js</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#4479A1" aria-hidden="true" focusable="false"><path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"/></svg><span>MySQL</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 7V3"/><path d="M15 7V3"/><path d="M6 7h12v4a6 6 0 0 1-12 0z"/><path d="M12 17v4"/></svg><span>Intégration d’API</span></li>
+              </ul>
+            </article>
+
+            <article class="card stack-group reveal">
+              <h3>Mobile, design &amp; outils</h3>
+              <ul class="stack-list">
+                <li><svg viewBox="0 0 24 24" fill="#47C5FB" aria-hidden="true" focusable="false"><path d="M14.31 0 2.3 12 6 15.7 21.68.01h-7.36zm.02 11.07-6.47 6.46 6.47 6.47h7.37l-6.46-6.47 6.46-6.46z"/></svg><span>Flutter</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#F24E1E" aria-hidden="true" focusable="false"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg><span>Figma</span></li>
+                <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><span>Git &amp; GitHub</span></li>
+              </ul>
+            </article>
+
+            <article class="card stack-group reveal d1">
+              <h3>Automatisation, IA &amp; acquisition</h3>
+              <ul class="stack-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v3"/><path d="M12 18v3"/><path d="M3 12h3"/><path d="M18 12h3"/><path d="m12 8 1.2 2.8L16 12l-2.8 1.2L12 16l-1.2-2.8L8 12l2.8-1.2z"/></svg><span>API d’IA générative</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4.1A8 8 0 1 1 20 12Z"/><path d="M9 11h.01"/><path d="M12 11h.01"/><path d="M15 11h.01"/></svg><span>Agents IA conversationnels</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#0467DF" aria-hidden="true" focusable="false"><path d="M6.915 4.03c-1.968 0-3.683 1.28-4.871 3.113C.704 9.208 0 11.883 0 14.449c0 .706.07 1.369.21 1.973a6.624 6.624 0 0 0 .265.86 5.297 5.297 0 0 0 .371.761c.696 1.159 1.818 1.927 3.593 1.927 1.497 0 2.633-.671 3.965-2.444.76-1.012 1.144-1.626 2.663-4.32l.756-1.339.186-.325c.061.1.121.196.183.3l2.152 3.595c.724 1.21 1.665 2.556 2.47 3.314 1.046.987 1.992 1.22 3.06 1.22 1.075 0 1.876-.355 2.455-.843a3.743 3.743 0 0 0 .81-.973c.542-.939.861-2.127.861-3.745 0-2.72-.681-5.357-2.084-7.45-1.282-1.912-2.957-2.93-4.716-2.93-1.047 0-2.088.467-3.053 1.308-.652.57-1.257 1.29-1.82 2.05-.69-.875-1.335-1.547-1.958-2.056-1.182-.966-2.315-1.303-3.454-1.303zm10.16 2.053c1.147 0 2.188.758 2.992 1.999 1.132 1.748 1.647 4.195 1.647 6.4 0 1.548-.368 2.9-1.839 2.9-.58 0-1.027-.23-1.664-1.004-.496-.601-1.343-1.878-2.832-4.358l-.617-1.028a44.908 44.908 0 0 0-1.255-1.98c.07-.109.141-.224.211-.327 1.12-1.667 2.118-2.602 3.358-2.602zm-10.201.553c1.265 0 2.058.791 2.675 1.446.307.327.737.871 1.234 1.579l-1.02 1.566c-.757 1.163-1.882 3.017-2.837 4.338-1.191 1.649-1.81 1.817-2.486 1.817-.524 0-1.038-.237-1.383-.794-.263-.426-.464-1.13-.464-2.046 0-2.221.63-4.535 1.66-6.088.454-.687.964-1.226 1.533-1.533a2.264 2.264 0 0 1 1.088-.285z"/></svg><span>Meta Ads</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#4285F4" aria-hidden="true" focusable="false"><path d="M3.9998 22.9291C1.7908 22.9291 0 21.1383 0 18.9293s1.7908-3.9998 3.9998-3.9998 3.9998 1.7908 3.9998 3.9998-1.7908 3.9998-3.9998 3.9998zm19.4643-6.0004L15.4632 3.072C14.3586 1.1587 11.9121.5028 9.9988 1.6074S7.4295 5.1585 8.5341 7.0718l8.0009 13.8567c1.1046 1.9133 3.5511 2.5679 5.4644 1.4646 1.9134-1.1046 2.568-3.5511 1.4647-5.4644zM7.5137 4.8438L1.5645 15.1484A4.5 4.5 0 0 1 4 14.4297c2.5597-.0075 4.6248 2.1585 4.4941 4.7148l3.2168-5.5723-3.6094-6.25c-.4499-.7793-.6322-1.6394-.5878-2.4784z"/></svg><span>Google Ads</span></li>
+                <li><svg viewBox="0 0 24 24" fill="#e8f1f3" aria-hidden="true" focusable="false"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg><span>TikTok Ads</span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== BANDEAU PORTFOLIO ===================== -->
+      <section class="banner" aria-labelledby="titre-banner">
+        <div class="banner-img">
+          <img
+            src="assets/img/desk.png"
+            width="1940"
+            height="811"
+            alt="Poste de travail avec ordinateur portable affichant du code, plante, tasse et téléphone"
+            decoding="async"
+            loading="lazy"
+          />
+        </div>
+        <div class="container">
+          <div class="banner-copy">
+            <p class="eyebrow">Mon portfolio</p>
+            <h2 id="titre-banner">Des projets qui parlent d’eux-mêmes</h2>
+            <p>
+              Découvrez une sélection de mes réalisations, allant du développement web aux
+              campagnes publicitaires, en passant par l’automatisation et l’IA.
+            </p>
+            <a class="btn btn-primary" href="#projects">
+              Voir tous les projets
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== PROJETS ===================== -->
+      <section class="projects" id="projects" aria-labelledby="titre-projets">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Projets</p>
+              <h2 class="section-title" id="titre-projets">Des produits, pas seulement des pages</h2>
+            </div>
+            <a class="arrow-link" href="#contact">Un projet en tête ? Parlons-en <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></a>
+          </div>
+
+          <div class="projects-grid">
+            <article class="card project reveal">
+              <div class="project-media">
+                <picture>
+                  <source srcset="assets/img/project-wazshop.webp" type="image/webp" />
+                  <img src="assets/img/project-wazshop-hd.png" width="1536" height="1024"
+                       alt="WaziShop : page d’accueil et tableau de bord de gestion de boutique connectée à WhatsApp, sur ordinateur et mobile" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <div class="project-body">
+                <p class="project-cat">Application web</p>
+                <h3>WazShop</h3>
+                <dl class="project-facts">
+                  <div><dt>Besoin</dt><dd>Gérer une boutique qui vend via WhatsApp et ses actions marketing.</dd></div>
+                  <div><dt>Solution</dt><dd>Une application web de gestion de boutique pensée pour les commerçants.</dd></div>
+                </dl>
+                <ul class="tags" aria-label="Technologies">
+                  <li>Next.js</li><li>Tailwind CSS</li><li>Laravel</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card project reveal d1">
+              <div class="project-media">
+                <picture>
+                  <source srcset="assets/img/project-unibus.webp" type="image/webp" />
+                  <img src="assets/img/project-unibus-hd.png" width="1536" height="1024"
+                       alt="Plateforme de transport en bus : tableau de bord des départs, réservation mobile, ticket QR et embarquement" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <div class="project-body">
+                <p class="project-cat">Application mobile / Web</p>
+                <h3>UniBus</h3>
+                <dl class="project-facts">
+                  <div><dt>Besoin</dt><dd>Organiser le transport des étudiants vers leurs universités.</dd></div>
+                  <div><dt>Solution</dt><dd>Une plateforme de transport scolaire, sur le web et le mobile.</dd></div>
+                </dl>
+                <ul class="tags" aria-label="Technologies">
+                  <li>Next.js</li><li>Tailwind CSS</li><li>Laravel</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card project reveal d2">
+              <div class="project-media">
+                <picture>
+                  <source srcset="assets/img/project-eventops.webp" type="image/webp" />
+                  <img src="assets/img/project-eventops-hd.png" width="1536" height="1024"
+                       alt="EVENTOPS : tableau de bord d’un événement avec inscriptions, budget, tâches et check-in" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <div class="project-body">
+                <p class="project-cat">SaaS</p>
+                <h3>EVENTOPS</h3>
+                <dl class="project-facts">
+                  <div><dt>Besoin</dt><dd>Centraliser l’organisation d’événements professionnels.</dd></div>
+                  <div><dt>Solution</dt><dd>Une plateforme SaaS de gestion d’événements.</dd></div>
+                </dl>
+                <ul class="tags" aria-label="Technologies">
+                  <li>Next.js</li><li>Tailwind CSS</li><li>Node.js</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card project project-cta reveal">
+              <div class="project-media">
+                <picture>
+                  <source srcset="assets/img/project-autres.webp" type="image/webp" />
+                  <img src="assets/img/project-autres-hd.png" width="1200" height="800"
+                       alt="Aperçu d’autres projets : ClassFlow, Q4 Revenue Rescue et Africa Ops" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <div class="project-body">
+                <p class="project-cat">Votre projet</p>
+                <h3>Le prochain produit ?</h3>
+                <p>Une idée d’application, de plateforme ou d’outil métier ? Construisons-la ensemble.</p>
+                <a class="arrow-link" href="#contact">Discuter de votre projet <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== MÉTHODE ===================== -->
+      <section class="method" id="methode" aria-labelledby="titre-method">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Méthode</p>
+              <h2 class="section-title" id="titre-method">Ma façon de travailler</h2>
+            </div>
+            <p class="section-intro">
+              Un processus simple et transparent, du premier échange jusqu’aux évolutions du
+              produit.
+            </p>
+          </div>
+
+          <ol class="method-steps">
+            <li class="method-step reveal">
+              <span class="step-num" aria-hidden="true">01</span>
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.4-4.4"/></svg></span>
+              <h3>Comprendre</h3>
+              <p>Clarifier le besoin, les utilisateurs et les objectifs avant d’écrire du code.</p>
+            </li>
+            <li class="method-step reveal d1">
+              <span class="step-num" aria-hidden="true">02</span>
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 19 7-7 3 3-7 7z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18z"/><path d="m2 2 7.6 7.6"/><circle cx="11" cy="11" r="2"/></svg></span>
+              <h3>Concevoir</h3>
+              <p>Définir le parcours utilisateur, l’architecture et les maquettes.</p>
+            </li>
+            <li class="method-step reveal d2">
+              <span class="step-num" aria-hidden="true">03</span>
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 8-4 4 4 4"/><path d="m15 8 4 4-4 4"/></svg></span>
+              <h3>Développer</h3>
+              <p>Construire le produit étape par étape, avec un code propre et maintenable.</p>
+            </li>
+            <li class="method-step reveal d3">
+              <span class="step-num" aria-hidden="true">04</span>
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg></span>
+              <h3>Tester</h3>
+              <p>Vérifier chaque fonctionnalité, sur mobile comme sur ordinateur.</p>
+            </li>
+            <li class="method-step reveal d4">
+              <span class="step-num" aria-hidden="true">05</span>
+              <span class="ico-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 17 9 11l4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+              <h3>Améliorer</h3>
+              <p>Ajuster et faire évoluer le produit selon les retours, après sa mise en ligne.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ===================== CONTACT ===================== -->
+      <section class="contact" id="contact" aria-labelledby="titre-contact">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-intro">
+              <p class="eyebrow">Contact</p>
+              <h2 class="section-title" id="titre-contact">Construisons quelque chose d’utile.</h2>
+              <p class="lead">
+                Vous avez une idée, un projet ou un besoin spécifique ? Échangeons autour de
+                votre projet et voyons comment lui donner vie.
+              </p>
+
+              <ul class="contact-list">
+                <li>
+                  <span class="ico-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7.5 8 5.5 8-5.5"/></svg></span>
+                  <span class="c-body">
+                    <span class="c-label">Email</span>
+                    <span class="c-value c-email">simonnehoueto44@gmail.com</span>
+                  </span>
+                  <button type="button" class="copy-btn" data-copy="simonnehoueto44@gmail.com" aria-label="Copier l’adresse email">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+                    <span class="copy-label">Copier</span>
+                  </button>
+                </li>
+                <li>
+                  <span class="ico-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.5 3.5h3l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7a2 2 0 0 1 2-2.2Z"/></svg></span>
+                  <span class="c-body">
+                    <span class="c-label">Téléphone · WhatsApp</span>
+                    <a class="c-value" href="tel:+2290197417300">+229 01 97 41 73 00</a>
+                  </span>
+                  <a class="wa-btn" href="https://wa.me/2290197417300?text=Bonjour%20Simonne%2C%20je%20vous%20contacte%20depuis%20votre%20portfolio." target="_blank" rel="noopener noreferrer" aria-label="M’écrire sur WhatsApp (nouvel onglet)">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                    <span class="wa-label">WhatsApp</span>
+                  </a>
+                </li>
+                <li>
+                  <span class="ico-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s6.5-5.5 6.5-10.2A6.5 6.5 0 0 0 5.5 10.8C5.5 15.5 12 21 12 21Z"/><circle cx="12" cy="10.5" r="2.4"/></svg></span>
+                  <span class="c-body">
+                    <span class="c-label">Localisation</span>
+                    <span class="c-value">Bénin, Afrique</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Formulaire : l'envoi est délégué à un service externe (Formspree,
+                 Web3Forms, API maison…). Renseigner son URL dans data-endpoint ;
+                 tant qu'il est vide, aucun envoi n'est simulé (voir script.js). -->
+            <form class="card contact-form" id="contact-form" data-endpoint="" novalidate>
+              <div class="form-row">
+                <div class="field">
+                  <label for="cf-name">Nom <span aria-hidden="true">*</span></label>
+                  <input id="cf-name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="cf-name-error" />
+                  <p class="field-error" id="cf-name-error"></p>
+                </div>
+                <div class="field">
+                  <label for="cf-email">Email <span aria-hidden="true">*</span></label>
+                  <input id="cf-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="120" aria-describedby="cf-email-error" />
+                  <p class="field-error" id="cf-email-error"></p>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="cf-subject">Sujet</label>
+                <input id="cf-subject" name="subject" type="text" maxlength="120" placeholder="Ex. : application web, site vitrine, automatisation…" />
+              </div>
+
+              <div class="field">
+                <label for="cf-message">Message <span aria-hidden="true">*</span></label>
+                <textarea id="cf-message" name="message" rows="6" required minlength="10" maxlength="3000" aria-describedby="cf-message-error"></textarea>
+                <p class="field-error" id="cf-message-error"></p>
+              </div>
+
+              <!-- Piège à robots : invisible pour les humains -->
+              <div class="hp-field" aria-hidden="true">
+                <label for="cf-website">Site web</label>
+                <input id="cf-website" name="website" type="text" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <div class="form-foot">
+                <p class="form-hint"><span aria-hidden="true">*</span> Champs obligatoires</p>
+                <button class="btn btn-primary" type="submit">
+                  <span class="btn-label">Envoyer le message</span>
+                  <span class="spinner" aria-hidden="true"></span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m4 12 16-8-6 16-2.5-6.5z"/></svg>
+                </button>
+              </div>
+
+              <div class="form-status" id="cf-status" role="status" aria-live="polite" hidden></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <div class="container footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="#home" aria-label="Simonne Houeto — retour à l’accueil">
+            <span class="brand-mark" aria-hidden="true">SH</span>
+            <span class="brand-text">
+              <span class="brand-name">Simonne Houeto</span>
+              <span class="brand-role">Développeuse Web Full-Stack</span>
+            </span>
+          </a>
+          <p class="footer-tagline">
+            Applications web, plateformes métier et produits digitaux, conçus pour
+            être utiles.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-labelledby="footer-nav-title">
+          <p class="footer-title" id="footer-nav-title">Navigation</p>
+          <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <p class="footer-title">Un projet ?</p>
+          <div class="social-links">
+            <a class="social-btn social-btn-text" href="#contact">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7.5 8 5.5 8-5.5"/></svg>
+              <span>Écrire un message</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">© <span id="year">2026</span> — Simonne Houeto. Tous droits réservés.</p>
+          <div class="footer-bottom-end">
+            <!-- Icônes générées par script.js depuis SOCIAL_LINKS (même source que
+                 les cartes de la section Contact). -->
+            <div class="footer-socials" id="social-links" role="group" aria-label="Mes réseaux"></div>
+            <a class="to-top" href="#home" aria-label="Retour en haut"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5"/><path d="m6 11 6-6 6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
