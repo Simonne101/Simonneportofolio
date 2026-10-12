@@ -1,11 +1,11 @@
-// Portfolio Simonne Houeto — script.js
+// Portfolio Simonne Houeto : script.js
 // Réseaux sociaux, menu mobile, apparition au défilement, lien actif, formulaire de contact.
 
 (() => {
   'use strict';
 
   /* =====================================================================
-     RÉSEAUX SOCIAUX — source unique, seul endroit à modifier.
+     RÉSEAUX SOCIAUX : source unique, seul endroit à modifier.
      Alimente les icônes de la barre du bas du footer.
        url : adresse complète du profil (https://…)
      Tant que « url » est vide, l'icône reste visible mais non cliquable :
@@ -155,7 +155,7 @@
   }
 
   /* ---------- Copier l'adresse email ----------
-     Pas de lien mailto: — sans logiciel de messagerie configuré, Windows ouvre
+     Pas de lien mailto : sans logiciel de messagerie configuré, Windows ouvre
      Edge. L'adresse reste affichée en clair et se copie en un clic.
      Délégation : couvre aussi les boutons insérés dans les messages du formulaire. */
   document.addEventListener('click', async (event) => {
@@ -296,7 +296,7 @@
       email: fields.email.value.trim(),
       subject: fields.subject.value.trim(),
       message: fields.message.value.trim(),
-      _subject: `Portfolio — ${fields.subject.value.trim() || 'Nouveau message'}`,
+      _subject: `Portfolio : ${fields.subject.value.trim() || 'Nouveau message'}`,
     };
 
     setLoading(true);
